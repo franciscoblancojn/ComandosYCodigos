@@ -1,0 +1,10 @@
+solo usar uno, si no te funciona prueba con el ultimo
+
+sudo apt install folder-color
+
+sudo apt install carpeta-color-caja
+
+sudo apt-get install folder-color-nemo
+
+sudo add-apt-repository ppa:costales/folder-color
+sudo apt-get update

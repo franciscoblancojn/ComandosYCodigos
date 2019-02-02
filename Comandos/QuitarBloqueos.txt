@@ -1,0 +1,2 @@
+sudo fuser -vki  /var/lib/dpkg/lock
+https://ayudalinux.com/como-solucionar-el-error-no-se-pudo-bloquear-var-lib-dpkg-lock/
