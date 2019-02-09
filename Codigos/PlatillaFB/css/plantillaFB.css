@@ -1,3 +1,151 @@
-
+.color-fff {
+  color: #fff; }
+.hover-color-fff:hover {
+  color: #fff; }
+.color-000 {
+  color: #000; }
+.hover-color-000:hover {
+  color: #000; }
+.color-123 {
+  color: #123; }
+.hover-color-123:hover {
+  color: #123; }
+.color-234 {
+  color: #234; }
+.hover-color-234:hover {
+  color: #234; }
+.color-345 {
+  color: #345; }
+.hover-color-345:hover {
+  color: #345; }
+.color-567 {
+  color: #567; }
+.hover-color-567:hover {
+  color: #567; }
+.color-678 {
+  color: #678; }
+.hover-color-678:hover {
+  color: #678; }
+.color-983 {
+  color: #983; }
+.hover-color-983:hover {
+  color: #983; }
+.bg-color-fff {
+  background-color: #fff; }
+.hover-bg-color-fff:hover {
+  background-color: #fff; }
+.bg-color-000 {
+  background-color: #000; }
+.hover-bg-color-000:hover {
+  background-color: #000; }
+.bg-color-123 {
+  background-color: #123; }
+.hover-bg-color-123:hover {
+  background-color: #123; }
+.bg-color-234 {
+  background-color: #234; }
+.hover-bg-color-234:hover {
+  background-color: #234; }
+.bg-color-345 {
+  background-color: #345; }
+.hover-bg-color-345:hover {
+  background-color: #345; }
+.bg-color-567 {
+  background-color: #567; }
+.hover-bg-color-567:hover {
+  background-color: #567; }
+.bg-color-678 {
+  background-color: #678; }
+.hover-bg-color-678:hover {
+  background-color: #678; }
+.bg-color-983 {
+  background-color: #983; }
+.hover-bg-color-983:hover {
+  background-color: #983; }
+.font-arial-100 {
+  font-family: "arial", sans-serif;
+  font-weight: 100; }
+.font-arial-200 {
+  font-family: "arial", sans-serif;
+  font-weight: 200; }
+.font-arial-300 {
+  font-family: "arial", sans-serif;
+  font-weight: 300; }
+.font-arial-400 {
+  font-family: "arial", sans-serif;
+  font-weight: 400; }
+.font-arial-500 {
+  font-family: "arial", sans-serif;
+  font-weight: 500; }
+.font-arial-600 {
+  font-family: "arial", sans-serif;
+  font-weight: 600; }
+.font-arial-700 {
+  font-family: "arial", sans-serif;
+  font-weight: 700; }
+.font-arial-800 {
+  font-family: "arial", sans-serif;
+  font-weight: 800; }
+.font-arial-900 {
+  font-family: "arial", sans-serif;
+  font-weight: 900; }
+.font-lote-100 {
+  font-family: "lote", sans-serif;
+  font-weight: 100; }
+.font-lote-200 {
+  font-family: "lote", sans-serif;
+  font-weight: 200; }
+.font-lote-300 {
+  font-family: "lote", sans-serif;
+  font-weight: 300; }
+.font-lote-400 {
+  font-family: "lote", sans-serif;
+  font-weight: 400; }
+.font-lote-500 {
+  font-family: "lote", sans-serif;
+  font-weight: 500; }
+.font-lote-600 {
+  font-family: "lote", sans-serif;
+  font-weight: 600; }
+.font-lote-700 {
+  font-family: "lote", sans-serif;
+  font-weight: 700; }
+.font-lote-800 {
+  font-family: "lote", sans-serif;
+  font-weight: 800; }
+.font-lote-900 {
+  font-family: "lote", sans-serif;
+  font-weight: 900; }
+.font-ralewi-100 {
+  font-family: "ralewi", sans-serif;
+  font-weight: 100; }
+.font-ralewi-200 {
+  font-family: "ralewi", sans-serif;
+  font-weight: 200; }
+.font-ralewi-300 {
+  font-family: "ralewi", sans-serif;
+  font-weight: 300; }
+.font-ralewi-400 {
+  font-family: "ralewi", sans-serif;
+  font-weight: 400; }
+.font-ralewi-500 {
+  font-family: "ralewi", sans-serif;
+  font-weight: 500; }
+.font-ralewi-600 {
+  font-family: "ralewi", sans-serif;
+  font-weight: 600; }
+.font-ralewi-700 {
+  font-family: "ralewi", sans-serif;
+  font-weight: 700; }
+.font-ralewi-800 {
+  font-family: "ralewi", sans-serif;
+  font-weight: 800; }
+.font-ralewi-900 {
+  font-family: "ralewi", sans-serif;
+  font-weight: 900; }
+.w {
+  font-size: 1rem;
+  line-height: 1rem;
+  letter-spacing: 0.025rem; }
 
 /*# sourceMappingURL=plantillaFB.css.map */

@@ -1,8 +1,24 @@
 @mixin text($color,$font-family,$font-weight,$font-size,$line-height,$letter-spacing){
-	color:$color;
-	font-family: $font-family, sans-serif;
-	font-weight: $font-weight;
-	font-size: (($font-size)/16px)*1rem;
-	line-height: ($line-height/16px)*1rem;
+	@if($font-family!=null){
+		font-family: $font-family, sans-serif;
+		font-weight: $font-weight;
+	}
+	@if($font-size-base){
+		font-size: (($font-size)/$font-size-base)*1rem;
+		line-height: ($line-height/$font-size-base)*1rem;
+	}@else{
+		font-size: (($font-size)/16px)*1rem;
+		line-height: ($line-height/16px)*1rem;
+	}
 	letter-spacing: ($letter-spacing/1000)*1rem;
+	@if($color!=null){
+		@if($sw-color-adm ){
+			$aux: str-slice("#"+$color,3);
+			@at-root .color-#{$aux}{
+				color:$color;
+			}
+		}@else{
+			color:$color;
+		}
+	}
 }

@@ -1,0 +1,12 @@
+@mixin addFont($list-font){
+	@each $font in $list-font{
+		@at-root .font-#{$font}{
+			@for $i from 1 through 9 {
+			  &-#{$i*100} {
+			  	font-family: ''+$font+'' , $font-family-base;
+			  	font-weight: $i*100;
+			  }
+			}
+		}
+	}
+}

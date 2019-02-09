@@ -1,0 +1,56 @@
+@mixin color($color,$hover){
+	@if($sw-color-adm){
+		$aux: str-slice("#"+$color,3);
+		@at-root .color-#{$aux}{
+			color:$color;
+		}
+		$aux: str-slice("#"+$hover,3);
+		@at-root .hover-color-#{$aux}:hover{
+			color:$hover;
+		}
+	}@else{
+		color:$color;
+		&:hover{
+			color:$hover;
+		}
+	}
+}
+@mixin bg-color($color,$hover){
+	@if($sw-color-adm){
+		$aux: str-slice("#"+$color,3);
+		@at-root .bg-color-#{$aux}{
+			background-color:$color;
+		}
+		$aux: str-slice("#"+$hover,3);
+		@at-root .hover-bg-color-#{$aux}:hover{
+			background-color:$hover;
+		}
+	}@else{
+		background-color:$color;
+		&:hover{
+			background-color:$hover;
+		}
+	}
+}
+@mixin addColor($list-color){
+	@each $color in $list-color{
+		$aux: str-slice("#"+$color,3);
+		@at-root .color-#{$aux}{
+			color:$color;
+		}
+		@at-root .hover-color-#{$aux}:hover{
+			color:$color;
+		}
+	}
+}
+@mixin addBgColor($list-bgcolor){
+	@each $color in $list-bgcolor{
+		$aux: str-slice("#"+$color,3);
+		@at-root .bg-color-#{$aux}{
+			background-color:$color;
+		}
+		@at-root .hover-bg-color-#{$aux}:hover{
+			background-color:$color;
+		}
+	}
+}
