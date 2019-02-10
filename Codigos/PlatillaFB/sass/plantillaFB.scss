@@ -7,7 +7,7 @@
 @include addBgColor($color);
 @include addFont($font);
 .w{
-	@include text(null,null,400,16px,16px,25);
+	@include text(#678,null,400,16px,16px,25);
 	//@include color(#fff,#eee);
 	//@include bg-color(#fff,#eee);
 }

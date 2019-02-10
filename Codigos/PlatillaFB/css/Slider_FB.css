@@ -1,0 +1,22 @@
+.Slider_FB {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  width: 500px;
+  position: relative; }
+  .Slider_FB .content_FB {
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    position: static;
+    transform: translateX(0px);
+    transition: 1s; }
+    .Slider_FB .content_FB .item_FB {
+      display: inline-block;
+      padding: 0;
+      margin: 0;
+      max-width: 100%;
+      max-height: 100%;
+      position: relative; }
+
+/*# sourceMappingURL=Slider_FB.css.map */
