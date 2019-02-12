@@ -1,93 +1,77 @@
-.color-fff {
-  color: #fff; }
-.hover-color-fff:hover {
-  color: #fff; }
-.color-000 {
-  color: #000; }
-.hover-color-000:hover {
-  color: #000; }
-.color-123 {
-  color: #123; }
-.hover-color-123:hover {
-  color: #123; }
-.color-234 {
-  color: #234; }
-.hover-color-234:hover {
-  color: #234; }
-.color-345 {
-  color: #345; }
-.hover-color-345:hover {
-  color: #345; }
-.color-567 {
-  color: #567; }
-.hover-color-567:hover {
-  color: #567; }
-.color-678 {
-  color: #678; }
-.hover-color-678:hover {
-  color: #678; }
-.color-983 {
-  color: #983; }
-.hover-color-983:hover {
-  color: #983; }
-.bg-color-fff {
-  background-color: #fff; }
-.hover-bg-color-fff:hover {
-  background-color: #fff; }
-.bg-color-000 {
-  background-color: #000; }
-.hover-bg-color-000:hover {
-  background-color: #000; }
-.bg-color-123 {
-  background-color: #123; }
-.hover-bg-color-123:hover {
-  background-color: #123; }
-.bg-color-234 {
-  background-color: #234; }
-.hover-bg-color-234:hover {
-  background-color: #234; }
-.bg-color-345 {
-  background-color: #345; }
-.hover-bg-color-345:hover {
-  background-color: #345; }
-.bg-color-567 {
-  background-color: #567; }
-.hover-bg-color-567:hover {
-  background-color: #567; }
-.bg-color-678 {
-  background-color: #678; }
-.hover-bg-color-678:hover {
-  background-color: #678; }
-.bg-color-983 {
-  background-color: #983; }
-.hover-bg-color-983:hover {
-  background-color: #983; }
-.font-arial-100 {
-  font-family: "arial", sans-serif;
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+.fontLato {
+  font-family: 'Lato', sans-serif; }
+
+.fw100 {
   font-weight: 100; }
-.font-arial-200 {
-  font-family: "arial", sans-serif;
+
+.fw200 {
   font-weight: 200; }
-.font-arial-300 {
-  font-family: "arial", sans-serif;
+
+.fw300 {
   font-weight: 300; }
-.font-arial-400 {
-  font-family: "arial", sans-serif;
+
+.fw400 {
   font-weight: 400; }
-.font-arial-500 {
-  font-family: "arial", sans-serif;
+
+.fw500 {
   font-weight: 500; }
-.font-arial-600 {
-  font-family: "arial", sans-serif;
+
+.fw600 {
   font-weight: 600; }
-.font-arial-700 {
-  font-family: "arial", sans-serif;
+
+.fw700 {
   font-weight: 700; }
-.font-arial-800 {
-  font-family: "arial", sans-serif;
+
+.fw800 {
   font-weight: 800; }
-.font-arial-900 {
-  font-family: "arial", sans-serif;
+
+.tag-body {
+  display: none !important; }
+
+.p-absolute {
+  position: absolute !important; }
+
+.hover-bg-fff:hover {
+  background-color: #fff !important; }
+
+.hover-color-1c3348:important {
+  color: #1c3348 !important; }
+
+/*clasess espesificas*/
+.section1-text-1 {
+  font-size: 26px; }
+
+.section1-text-2 {
+  font-size: 45px; }
+
+.font-Poppins-100 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100; }
+.font-Poppins-200 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200; }
+.font-Poppins-300 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300; }
+.font-Poppins-400 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400; }
+.font-Poppins-500 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500; }
+.font-Poppins-600 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+.font-Poppins-700 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700; }
+.font-Poppins-800 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800; }
+.font-Poppins-900 {
+  font-family: "Poppins", sans-serif;
   font-weight: 900; }
 .font-lote-100 {
   font-family: "lote", sans-serif;
@@ -116,37 +100,12 @@
 .font-lote-900 {
   font-family: "lote", sans-serif;
   font-weight: 900; }
-.font-ralewi-100 {
-  font-family: "ralewi", sans-serif;
-  font-weight: 100; }
-.font-ralewi-200 {
-  font-family: "ralewi", sans-serif;
-  font-weight: 200; }
-.font-ralewi-300 {
-  font-family: "ralewi", sans-serif;
-  font-weight: 300; }
-.font-ralewi-400 {
-  font-family: "ralewi", sans-serif;
-  font-weight: 400; }
-.font-ralewi-500 {
-  font-family: "ralewi", sans-serif;
-  font-weight: 500; }
-.font-ralewi-600 {
-  font-family: "ralewi", sans-serif;
-  font-weight: 600; }
-.font-ralewi-700 {
-  font-family: "ralewi", sans-serif;
-  font-weight: 700; }
-.font-ralewi-800 {
-  font-family: "ralewi", sans-serif;
-  font-weight: 800; }
-.font-ralewi-900 {
-  font-family: "ralewi", sans-serif;
-  font-weight: 900; }
-.w {
-  font-size: 1rem;
-  line-height: 1rem;
-  letter-spacing: 0.025rem;
-  color: #678; }
+/*
+.w{
+	@include text(#678,null,400,16px,16px,25);
+	//@include color(#fff,#eee);
+	//@include bg-color(#fff,#eee);
+}
+*/
 
 /*# sourceMappingURL=plantillaFB.css.map */
